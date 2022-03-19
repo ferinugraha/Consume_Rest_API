@@ -1,4 +1,4 @@
-<x-layouts.app :title="$title" :breadcrumbs="$breadcrumbs">
+<x-layouts.app >
     <div class="card">
         <div class="card-body">
             <form action="{{ route('users.update', $user['id']) }}" method="POST">
